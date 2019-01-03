@@ -27,3 +27,6 @@ Nu moeten we naar N30.179767 W97.812091. https://www.google.com/maps/place/30%C2
 
 ## Regel 4
 We weten dat we een cijfer moeten gebruiken als key, dus een rail fence cipher behoort tot de mogelijkheden. Als we daar met 8 rails decoderen, dan bekomen we `NUMAKENWEHETIETSLASTIGERDEGAFAGHNFEGCIEEO` ofwel, Nu maken we het iets lastiger `DEGAFAGHNFEGCIEEO`
+
+## Regel 5
+De volgende coordinaat is N45.716178 E6.573955: https://www.google.com/maps/place/45%C2%B042'58.2%22N+6%C2%B034'26.2%22E/@45.716178,6.573955,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.716178!4d6.573955 . Beaufort cipher met "BEAUFORT" als key geeft `ENNUVOLGTBFFIIHHIZBGHGDGDCO` ofwel, En nu volgt `BFFIIHHIZBGHGDGDCO`.
