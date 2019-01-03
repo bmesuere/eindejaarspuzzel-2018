@@ -14,4 +14,6 @@ Regel 1 bevat letters relatief laag in het alfabet. Als we die omzetten naar cij
 Regel 2 kunnen we decoderen volgens de caesar cipher (zie tip in locatie 1). Met een shift van 17 bekomen we:
 `HETVOLGENDECOORDINAATISDFEGODEDNCCCCFBCODESSLEUTELISDELOCATIE` Ofwel, het volgende coordinaat is `DFEGODEDNCCCCFBCO` de sleutel is de locatie.
 
-Het coordinaat omzetten levert `N46.5715454 E3.333623` op. Het laatste coordinaat kan ook 0.33... of 33.33... zijn. We lijken de locatie te moetenn gebruiken om regel 3 te decoderen. Vigenere levert niet direct iets op.
+Het coordinaat omzetten levert `N46.5715454 E3.333623` op, vlakbij rue vigenere: https://www.google.be/maps/place/46%C2%B034'17.6%22N+3%C2%B020'01.0%22E/@46.570664,3.3325501,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d46.5715454!4d3.333623
+ Vigenere cypher voor regel 3 levert niet direct iets op met code moulins oid
+
