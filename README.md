@@ -10,6 +10,10 @@ EIND, NEE, EGEL, STOPPER, TAS, TROTS, RENTE, OPWERKT
 
 ## Opgave 14 - WIP
 
+De vlaggen zijn getallen van `Be0`
+
+Uitleg hier: http://www.cetteadressecomportecinquantesignes.com/EricNumbers.htm
+
 ## Opgave 19 - WIP
 
 ## Opgave 36 - Opgelost
