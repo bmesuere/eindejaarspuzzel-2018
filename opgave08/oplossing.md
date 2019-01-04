@@ -35,5 +35,5 @@ We kunnen regel 5 dedoceren met de Beaufort cipher met `BEAUFORT` als key geeft 
 Het coordinaat levert `S26.699889 E27.874743` op, playfair boulevard: https://www.google.com/maps/place/26%C2%B041'59.6%22S+27%C2%B052'29.1%22E/@-26.699889,27.8725543,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-26.699889!4d27.874743
 
 ## Regel 6
-We kunnen regel 6 docoderen met het playfair cypher, maar geen idee wat de key is.
+We kunnen regel 6 docoderen met het playfair cypher, met `playfairboulevard` als key. We stellen hierbij I en J gelijk aan elkaar en splitsen geen dubbele letters. We bekomen `DOGDBBEGNGCIIAGFBWISDEEERSTEENDETWEEDEISEBFHBECONEOAIFEIOX`ofwel `DOGDBBEGNGCIIAGFBW` is de eerste en de tweede is `EBFHBECONEOAIFEIOX`
 
