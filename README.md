@@ -1,5 +1,7 @@
 # Eindejaarspuzzel
-Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eindejaar
+Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eindejaar, de franstalige versie is te vinden op https://www.mil.be/sites/mil.be/files/files_library/adiv_-_sgrs_puzzel_2018_-_version_fr.pdf
+
+We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschillende pagina's staan identiek zijn. De gekleurde bolletjes bovenaan de pagina's verschillen wel.
 
 * [Opgave 1](opgave01/oplossing.md) - (waarschijnlijk) **opgelost**
 * [Opgave 4](opgave04/oplossing.md) - **Opgelost**
