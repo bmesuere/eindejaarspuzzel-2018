@@ -34,12 +34,26 @@ def spiral(w):
             rl+=drl
             cl+=dcl
 
+def diagonal(w):
+    for i in range(w):
+        pos = (0,i)
+        yield pos
+        for j in range(i):
+            yield (pos[0]+1+j,pos[1]-1-j)
+    for i in range(w-1):
+        pos = (i+1,w-1)
+        yield pos
+        for j in range(w-i-2):
+            yield (pos[0]+1+j,pos[1]-1-j)
+
+
+
 def loopfinder():
     filled = makeForSubs({
-        '<':'-','>':'+',
+        '<':'<','>':'>',
         'v':'[','n':']',
         'i':'.',
-        'x':'>','-':'<'})
+        'x':'+','-':'-'})
 
     print("filled")
     print("\nrows readout")
@@ -69,6 +83,18 @@ def loopfinder():
     print(s)
 
 
+    print("\ndiagonal readout")
+    s=""
+    for (r,c) in diagonal(w):
+        s+=filled[r][c]
+    print(s)
+
+
+    print("\ntransposed diagonal readout")
+    s=""
+    for (r,c) in diagonal(w):
+        s+=filled[c][r]
+    print(s)
 
 
 
