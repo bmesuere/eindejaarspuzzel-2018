@@ -54,5 +54,7 @@ G E N E R A A L
 N     N       G
 ```
 
+Als we zoeken naar passende woorden dan komen we oa `Nurnberg` tegen, wat past in het thema.
+
 
 
