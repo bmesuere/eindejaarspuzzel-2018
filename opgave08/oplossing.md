@@ -22,7 +22,7 @@ Het coordinaat omzetten levert `N46.570454 E3.333623` op, rue vigenere: https://
 ## Regel 3
 We kunnen regel 3 decoderen met een vigenere cypher met als sleutel `ruevigenere`. We bekomen dan `NUGAANWENAARCOAGIGFGNIGHABOIAWSLEUTELISHETAANTALHUIZEN` ofwel, Nu gaan we naar `COAGIGFGNIGHABOIAW` sleutel is het aantal huizen.
 
-Nu moeten we naar N30.179767 W97.812091. https://www.google.com/maps/place/30%C2%B010'47.2%22N+97%C2%B048'43.5%22W/@30.1796047,-97.8123076,20z/data=!4m5!3m4!1s0x0:0x0!8m2!3d30.179767!4d-97.812091 . Dit is Rail Fence Cove waar 8 huizen staan.
+Nu moeten we naar `N30.179767 W97.812091`. https://www.google.com/maps/place/30%C2%B010'47.2%22N+97%C2%B048'43.5%22W/@30.1796047,-97.8123076,20z/data=!4m5!3m4!1s0x0:0x0!8m2!3d30.179767!4d-97.812091 . Dit is Rail Fence Cove waar 8 huizen staan.
 
 ## Regel 4
 We kunnen regel 4 decoderen met een rail fence cipher met sleutel 8, dan bekomen we `NUMAKENWEHETIETSLASTIGERDEGAFAGHNFEGCIEEO` ofwel, Nu maken we het iets lastiger `DEGAFAGHNFEGCIEEO`.
@@ -36,4 +36,12 @@ Het coordinaat levert `S26.699889 E27.874743` op, playfair boulevard: https://ww
 
 ## Regel 6
 We kunnen regel 6 docoderen met het playfair cypher, met `playfairboulevard` als key. We stellen hierbij I en J gelijk aan elkaar en splitsen geen dubbele letters. We bekomen `DOGDBBEGNGCIIAGFBWISDEEERSTEENDETWEEDEISEBFHBECONEOAIFEIOX`ofwel `DOGDBBEGNGCIIAGFBW` is de eerste en de tweede is `EBFHBECONEOAIFEIOX`
+
+Het eerste coordinaat levert `N40.742257 W73.991762` op, een plaats in Manhattan: https://www.google.com/maps/place/40%C2%B044'32.1%22N+73%C2%B059'30.3%22W/@40.7421444,-74.0267542,13z/data=!4m5!3m4!1s0x0:0x0!8m2!3d40.742257!4d-73.991762 
+
+Het tweede coordinaat eindigt op een X wat raar is. Als we die weglaten bekomen we `N52.682530 E5.019659`, de straat Vierkant: https://www.google.com/maps/place/52%C2%B040'57.1%22N+5%C2%B001'10.8%22E/@52.6825332,5.0174703,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d52.68253!4d5.019659
+
+## Regel 7
+Four-square cipher? Geen idee van de key.
+
 
