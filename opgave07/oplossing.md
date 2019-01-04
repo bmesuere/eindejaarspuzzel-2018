@@ -22,3 +22,10 @@ ZA: A,B,P,V
 **Wat missen we nog?**
 
 * Welke landen/regios worden opgelijst? Reisgidsen van een bepaalde uitgever? Regio codering van een of ander instituut?...
+
+**Wat leren we uit de Franse versie?**
+* Bij Afrika vinden we vertalingen voor Noord-Afrika en Zuid-Afrika. Oost-Afrika komt echter niet voor (zou AE moeten zijn, AO komt wel voor). In plaats van CA vinden we C in de Franse versie.
+* Bij Australië hebben we daar 2 keer AO en hebben we N ipv NG
+* Bij Zuid-Amerika hebben we dezelfde letters
+* Bij Azië vinden we ZOA niet terug en hebben we een Y
+* Bij Noord-Amerika zien we TNO staan, wat Territoires du Nord-Ouest is. Ook midden-amerika, oost en west komen overeen.
