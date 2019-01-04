@@ -1,20 +1,8 @@
 # Eindejaarspuzzel
 Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eindejaar
 
-## Opgave 4 - Opgelost
-```
-EIND, NEE, EGEL, STOPPER, TAS, TROTS, RENTE, OPWERKT
-```
-
-## Opgave 7 - WIP
-
-## Opgave 14 - WIP
-
-De vlaggen zijn getallen van `Be0`
-
-Uitleg hier: http://www.cetteadressecomportecinquantesignes.com/EricNumbers.htm
-
-## Opgave 19 - WIP
-
-## Opgave 36 - Opgelost
-`vrolijkkerstfeest` en `eneengelukkig2019`
+* [Opgave 4](opgave04/oplossing.md) - Opgelost
+* [Opgave 7](opgave07/oplossing.md) - WIP
+* [Opgave 14](opgave14/oplossing.md) - Hulp nodig
+* [Opgave 19](opgave19/oplossing.md) - WIP
+* [Opgave 36](opgave36/oplossing.md) - Opgelost
