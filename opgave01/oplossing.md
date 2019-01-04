@@ -27,12 +27,21 @@ eindtunes
 ermitages
 esc-toets
 ```
+en
+```
+eurotrucs
+eideticus
+epictetus 
+epistaxis
+epistylus 
+extaticus
+```
 
-Waarvan EINSTEINS misschien het meest 'passend' is. 
+Waarvan EINSTEINS of EINDTOETS misschien het meest 'passend' is. 
 
 # Deel b
 
-Gelijkaardig, maar hier gebruiken we ook de diageonalen om veldslag, granaten en soldaten te vinden
+Gelijkaardig, maar hier gebruiken we ook de diagonalen om veldslag, granaten en soldaten te vinden
 
 ```
 V E R S L O E G
