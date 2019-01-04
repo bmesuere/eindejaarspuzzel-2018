@@ -37,11 +37,13 @@ Het coordinaat levert `S26.699889 E27.874743` op, playfair boulevard: https://ww
 ## Regel 6
 We kunnen regel 6 docoderen met het playfair cypher, met `playfairboulevard` als key. We stellen hierbij I en J gelijk aan elkaar en splitsen geen dubbele letters. We bekomen `DOGDBBEGNGCIIAGFBWISDEEERSTEENDETWEEDEISEBFHBECONEOAIFEIOX`ofwel `DOGDBBEGNGCIIAGFBW` is de eerste en de tweede is `EBFHBECONEOAIFEIOX`
 
-Het eerste coordinaat levert `N40.742257 W73.991762` op, een plaats in Manhattan: https://www.google.com/maps/place/40%C2%B044'32.1%22N+73%C2%B059'30.3%22W/@40.7421444,-74.0267542,13z/data=!4m5!3m4!1s0x0:0x0!8m2!3d40.742257!4d-73.991762 
+Het eerste coordinaat levert `N40.742257 W73.991762` op, het hoofdkwartier van foursquare: https://www.google.com/maps/place/40%C2%B044'32.1%22N+73%C2%B059'30.3%22W/@40.7421444,-74.0267542,13z/data=!4m5!3m4!1s0x0:0x0!8m2!3d40.742257!4d-73.991762 
 
 Het tweede coordinaat eindigt op een X wat raar is. Als we die weglaten bekomen we `N52.682530 E5.019659`, de straat Vierkant: https://www.google.com/maps/place/52%C2%B040'57.1%22N+5%C2%B001'10.8%22E/@52.6825332,5.0174703,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d52.68253!4d5.019659
 
 ## Regel 7
-Four-square cipher? Geen idee van de key.
+Four-square cipher, met als keys `foursquare` en `vierkant` geeft `TOTSLOTBECFDOOHZAIAEFAEBOX`, ofwel Tot slot `BECFDOOHZAIAEFAEBOX`.
+
+Het coordinaat daarvoor is `Z25.364008, E19.156152`, de plaats eindpaal in Namibië: https://www.google.com/maps/place/25%C2%B021'50.4%22S+19%C2%B009'22.2%22E/@-25.364008,19.1539633,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-25.364008!4d19.156152 
 
 
