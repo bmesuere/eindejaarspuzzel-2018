@@ -7,13 +7,13 @@ E:  ...
 NA: A,A,G,MA,NWT,O,Q,VSW,VSO 
 ZA: A,B,P,V
 ```
-Dit zijn telkens de Alfabetisch gebieden op een Risk spelbord:
-Afrika: Centraal-Afrika, Egypte, Madagascar, Noord-Afrika, Oost-Afrika, Zuid-Afrika
-Australië: Indonesië, Nieuw-Guinea, Oost-Australië, West-Australië
-Azië: China, India, Japan, Jakoetsk, Kazachstan, Kamtsjatka , Midden-Oosten, Mongolië, Oeral, Siberië, Tsjita, ZuidOost-Azie
-Europa: Groot-Britanië, IJsland, Noord-Europa, Oost-Europa, Scandinavië, West-Europa, Zuid-Europa
-Noord-Amerika: Alberta, Alaska, Groenland, Midden-Amerika, Nord-West-Territories, Ontario, Quebec, Verenigde Staten West, Verenigde Staten Oost
-Zuid-Amerika: Argentinië, Brazilië, Peru, Venezuela
+Dit zijn telkens de Alfabetisch gebieden op een Risk spelbord:  
+Afrika: Centraal-Afrika, Egypte, Madagascar, Noord-Afrika, Oost-Afrika, Zuid-Afrika  
+Australië: Indonesië, Nieuw-Guinea, Oost-Australië, West-Australië  
+Azië: China, India, Japan, Jakoetsk, Kazachstan, Kamtsjatka , Midden-Oosten, Mongolië, Oeral, Siberië, Tsjita, ZuidOost-Azie  
+Europa: Groot-Britanië, IJsland, Noord-Europa, Oost-Europa, Scandinavië, West-Europa, Zuid-Europa  
+Noord-Amerika: Alberta, Alaska, Groenland, Midden-Amerika, Nord-West-Territories, Ontario, Quebec, Verenigde Staten West, Verenigde Staten Oost  
+Zuid-Amerika: Argentinië, Brazilië, Peru, Venezuela  
 
 De oplossing is dus: `E: GB, I, NE, OE, S, WE, ZE`
 
