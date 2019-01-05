@@ -48,25 +48,49 @@ def diagonal(w):
 
 
 
-def loopfinder():
-    filled = makeForSubs({
-        '<':'<','>':'>',
-        'v':'[','n':']',
-        'i':'.',
-        'x':'+','-':'-'})
-
-    print("filled")
+def loopfinder(s):
+    filled = makeForSubs(s)
+    print("---------------")
+    print(f"filled {s}")
+    show(filled)
     print("\nrows readout")
     s=""
     for r in range(w):
         for c in range(w):
             s+=filled[r][c]
     print(s)
+    print("\nrows readout RTL")
+    s=""
+    for r in range(w):
+        for c in range(w):
+            s+=filled[r][w-c-1]
+    print(s)
     print("\ncols readout")
     s=""
     for c in range(w):
         for r in range(w):
             s+=filled[r][c]
+    print(s)
+
+    print("\ncols readout down to up")
+    s=""
+    for c in range(w):
+        for r in range(w):
+            s+=filled[w-r-1][c]
+    print(s)
+
+    print("\ncols readout right to left")
+    s=""
+    for c in range(w):
+        for r in range(w):
+            s+=filled[r][w-c-1]
+    print(s)
+
+    print("\ncols readout down to up and right to left")
+    s=""
+    for c in range(w):
+        for r in range(w):
+            s+=filled[w-r-1][w-c-1]
     print(s)
 
     print("\nSpiral readout")
@@ -97,5 +121,11 @@ def loopfinder():
     print(s)
 
 
+# make a dict that maps the chars of "<>vnix-"
+def t(s):
+    return dict([("<>vnix-"[i],v) for i,v in enumerate(s)])
 
-loopfinder()
+#            "<>vnix-"
+loopfinder(t("<>[].+-"))
+loopfinder(t("<>[]+.-"))
+loopfinder(t("-+[].><"))
