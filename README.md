@@ -11,4 +11,5 @@ We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschille
 * [Opgave 13](opgave13/oplossing.md) - **Opgelost**
 * [Opgave 14](opgave14/oplossing.md) - Hulp nodig
 * [Opgave 15](opgave15/oplossing.md) - **Opgelost**
+* [Opgave 16](opgave16/oplossing.md) - **Opgelost**
 * [Opgave 36](opgave36/oplossing.md) - **Opgelost**
