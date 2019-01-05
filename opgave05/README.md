@@ -9,7 +9,7 @@
 ```
 
 v en n zijn evenveel aanwezig, maar ze zijn niet gebalanceerd
-(kunnen niet goed vervangen worden door haakjes)
+(kunnen niet goed vervangen worden door haakjes). Maar wel als je het kollom per kollom uitleest  :squirrel:
 
 ```
 rows readout
