@@ -71,3 +71,7 @@ De moderatoren zijn alle elementen uit de aliquot cykel die voor het eerst besch
 ```
 
 De grootste moderator is dus `629072`.
+
+# Oplossing b en c
+De niet-moderatoren van de groep zijn getallen waarvoor de opeenvolging van het nemen van de som van de delers uiteindelijk bij een element uit de cykel uitkomt.
+Voor x en y weten we al de vorm, we kunnen dus alle getallen genereren die aan de vorm voldoen en voor elk van hun controleren of ze bij een element uit de cykel uitkomen. Merk op dat dit heel lang kan duren. Het bestand possible x bevat de 330 kandidaat x-en.
