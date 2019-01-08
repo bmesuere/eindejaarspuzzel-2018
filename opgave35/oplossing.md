@@ -18,21 +18,21 @@ y: " aev t zueSem tmue ea,vgi,se lika kuiiekwg rkeelreN!enosioleG r foask nijb p
 De tekst is gecodeerd met een standaard transpositie met de username als key.
 Bijkomende moeilijkheid is dat opeenvolgende spaties gesquasht werden. Hier en daar moeten dus extra spaties worden toegevoegd om alles te kunnen decoderen.
 
-Hieronder een poging:
+Hieronder de volledig gedecodeerde tekst:
 ```
-31704:  Allemaal nen dikke proficiat aan de 27 mede-beheerders van dit forum, we kennen elkaar ondertussen al 100 jaar! Tijd voor een feest met veel kippekes!                                                                                                                   
+31704:  Allemaal nen dikke proficiat aan de 27 mede-beheerders van dit forum, we kennen elkaar ondertussen al 100 jaar! Tijd voor een feest met veel kippekes!
 28790:  Super! Dikke proficiat allemaal! We gaan der een supertof dagske van maken!
 40952:  Top! ik ben zot op kiek! Keigoe idee!
-312620: hjurktka!ao. eaiu s.v uoge ekkn beiwtnlIo w:ibonta kmr1enr9u  t Zeaen4 2g 5 re 9.tejiziet emmoeg-eneo  nidazpn rler gmoai, ulle jmlgee aelnnaao emarahsa fieetrkRmut notknll.                                                                                            
+312620: Raar toeval... ik heb ook leuk nieuws: Ik ga binnenkort trouwen met 549219. Ze zit jammer genoeg niet in deze groep, maar jullie mogen allemaal naar het feest komen natuurlijk!
 549218: Inderdaad superleuk nieuws Proficiat van uwe toekomstige schoonbroer. :)
 720362: Dikke proficiat! <3
 360184: Gezondheid allemaal! Hopelijk worden jullie heel gelukkig samen! :)
 525633536864:   Goh, maar dat is toevallig, ik ga binnenkort ook trouwen! ;)
-1211 (x):   Uw kadoke is reeds besteld se. Maar euh... ik voel me juist nen dwerg hier tussen al die grote getallen...
+1211:   Uw kadoke is reeds besteld se. Maar euh... ik voel me juist nen dwerg hier tussen al die grote getallen...
 31609639681:    Hehehe, naast u voele kik mij idd just ne reus. :D
 23405634121:    Amai, mannekes, die social media, ik kan ni meer volgen hoor!
 152990: Ja, dat is verwarrend he.
-165209478 (y):      Seg, ik ben vanaf morgen op skivakantie, dus moest ik ulle ni meer zien: Gelukkige Nieuwjaar!
+165209478:      Seg, ik ben vanaf morgen op skivakantie, dus moest ik ulle ni meer zien: Gelukkige Nieuwjaar!
 ```
 
 Voor x en y hebben we een passende volgorde gevonden. Maar let op, voor elke volgorde bestaan er meerdere getallen. Dus wanneer de toelatingsvoorwaarde gevonden is moeten deze getallen hoogstwaarschijnlijk nog aangepast worden.
