@@ -37,3 +37,37 @@ Hieronder de volledig gedecodeerde tekst:
 
 Voor x en y hebben we een passende volgorde gevonden. Maar let op, voor elke volgorde bestaan er meerdere getallen. Dus wanneer de toelatingsvoorwaarde gevonden is moeten deze getallen hoogstwaarschijnlijk nog aangepast worden.
 
+# Oplossing a
+De moderatoren zijn alle elementen uit de aliquot cykel die voor het eerst beschreven werd door Poulet in 1918:
+```
+2      14316   2E2.3.1193
+       19116   2E2.3E4.59
+       31704   2E3.3.1321
+       47616   2E9.3.31
+       83328   2E7.3.7.31
+       177792   2E7.3.463
+       295488   2E6.3E5.19
+       629072   2E4.39317
+       589786   2.294893
+       294896   2E4.7.2633
+       358336   2E6.11.509
+       418904   2E3.52363
+       366556   2E2.91639
+       274924   2E2.13.17.311
+       275444   2E2.13.5297
+       243760   2E4.5.11.277
+       376736   2E5.61.193
+       381028   2E2.95257
+       285778   2.43.3323
+       152990   2.5.15299
+       122410   2.5.12241
+       97946   2.48973
+       48976   2E4.3061
+       45946   2.22973
+       22976   2E6.359
+       22744   2E3.2843
+       19916   2E2.13.383
+       17716   2E2.43.103
+```
+
+De grootste moderator is dus `629072`.
