@@ -32,7 +32,7 @@ board = [ [ mapping[c] for c in line.strip() ] for line in sys.stdin if line.str
 rows = len(board)
 cols = len(board[0])
 
-deque = deque([(0, board)])
+deque = deque([(-1, board)])
 
 def neighbours(r, c, rows, cols):
 	return [ (r + dr, c + dc)
