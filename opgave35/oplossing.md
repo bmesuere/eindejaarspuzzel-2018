@@ -74,4 +74,38 @@ De grootste moderator is dus `629072`.
 
 # Oplossing b en c
 De niet-moderatoren van de groep zijn getallen waarvoor de opeenvolging van het nemen van de som van de delers uiteindelijk bij een element uit de cykel uitkomt.
-Voor x en y weten we al de vorm, we kunnen dus alle getallen genereren die aan de vorm voldoen en voor elk van hun controleren of ze bij een element uit de cykel uitkomen. Merk op dat dit heel lang kan duren. Het bestand possible x bevat de 330 kandidaat x-en.
+Voor x en y weten we al de vorm, we kunnen dus alle getallen genereren die aan de vorm voldoen en voor elk van hun controleren of ze bij een element uit de cykel uitkomen. Merk op dat dit heel lang kan duren. Het bestand possible-x.txt bevat de 330 kandidaat x-en, het bestand possible-y.txt bevat 2002 kandidaat y-en.
+
+Voor x vinden we `2856`:
+```
+2856
+5784
+8736
+19488
+40992
+84000
+230496
+475356
+792484
+1013852
+1013908
+1058092
+1264340
+2049964
+2123576
+2778664
+3492536
+3077104
+2884816
+3391568
+3775384
+3303476
+3003244
+2288756
+1773484
+1558964
+1440718
+720362
+360184
+376736
+```
