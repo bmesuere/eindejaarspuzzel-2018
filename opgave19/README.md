@@ -9,7 +9,7 @@ De afbeelding in tekstvorm, met encodering:
  - `B` = bruin (5 in mijnenveger)
  - `C` = cyaan (6 in mijnenveger)
  - `Z` = zwart (7 in mijnenveger)
-
+```
     -----G--O--D---A---G-------D-D--
     -OB-D-A-------G-D---AD--A--Z--O-
     --D-------DDBBO--O-----BG----D-O
@@ -43,7 +43,7 @@ De afbeelding in tekstvorm, met encodering:
     -D---D-G---G-O-O-----Z---O--B--A
     ---G----O----G-O----D-----------
     ------A-AAA----A-OOG-O-----D-DO-
-
+```
 
 board.txt bevat bovenstaand grid met getallen ipv letters
 valid input voor https://github.com/madewokherd/mines
