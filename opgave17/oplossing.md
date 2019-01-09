@@ -2,3 +2,7 @@ De afstand tussen de letters aan de linker kant is aan de rechterkant de afstand
 
 - ONFRIS
 - BINGO
+
+
+- VASTEN
+-
