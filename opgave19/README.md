@@ -43,3 +43,10 @@ De afbeelding in tekstvorm, met encodering:
     -D---D-G---G-O-O-----Z---O--B--A
     ---G----O----G-O----D-----------
     ------A-AAA----A-OOG-O-----D-DO-
+
+
+board.txt bevat bovenstaand grid met getallen ipv letters
+valid input voor https://github.com/madewokherd/mines
+
+unieke oplossing met 407 mines:
+python mines/mines.py mines 32 33 407 < board.txt
