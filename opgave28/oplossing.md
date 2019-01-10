@@ -6,7 +6,7 @@ Alleen vragen we van jullie natuurlijk een tekst met het hele alfabet. In het vo
 
 Poging met 6 tekens tussen. TODO: STU fixen, eventueel `zachtjes edoch hyperactief` fixen.
 
-**A**aagje bi**b**ert za**c**htjes e**d**och hyp**e**ractie**f** door de **g**elige W**h**iskey's d**i**e ze zwi**j**gend be**k**te.
+**A**agje bi**b**bert za**c**htjes e**d**och hyp**e**ractie**f** door de **g**elige W**h**iskey's d**i**e ze zwi**j**gend be**k**te.
 De bu**l**derste**m** van de o**n**verst**o**orbare o**p**a die de **q**uiz voo**r**las was ... **v**an haar **w**il: rela**x** en tips**y** uitbla**z**en. Oef!
 
 ```
