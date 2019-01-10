@@ -3,6 +3,8 @@ Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eind
 
 We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschillende pagina's staan identiek zijn. De gekleurde bolletjes bovenaan de pagina's verschillen wel.
 
+Voorlopige score: 1+1+2?+1+1+2+1+1+2+1+2+3+3+3+5+1 = 28(+2)
+
 * [Opgave 1](opgave01/oplossing.md) - (waarschijnlijk) **opgelost**
 * [Opgave 2](opgave02/oplossing.md) - (misschien) **opgelost**
 * [Opgave 3](opgave03/oplossing.md) - Geen idee (3p)
