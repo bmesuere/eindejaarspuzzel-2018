@@ -17,8 +17,8 @@ Voorlopige score: 1+1+2?+1+1+2+1+1+2+1+2+3+3+3+5+1 = 28(+2)
 * [Opgave 10](opgave10/oplossing.md) - Geen idee (3p, 4 kwadranten)
 * [Opgave 11](opgave11/oplossing.md) - Geen idee (2p, "kerk")
 * [Opgave 12a](opgave12/a/oplossing.md) - **Opgelost**
-* [Opgave 12a](opgave12/b/oplossing.md) - Geen idee
-* [Opgave 12a](opgave12/c/oplossing.md) - Geen idee
+* [Opgave 12b](opgave12/b/oplossing.md) - Geen idee (4p, gekleurde letters)
+* [Opgave 12b](opgave12/c/oplossing.md) - Geen idee (3p, lam gods)
 * [Opgave 13](opgave13/oplossing.md) - **Opgelost**
 * [Opgave 14](opgave14/oplossing.md) - **Opgelost**
 * [Opgave 15](opgave15/oplossing.md) - **Opgelost**
