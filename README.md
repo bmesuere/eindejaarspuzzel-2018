@@ -4,6 +4,7 @@ Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eind
 We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschillende pagina's staan identiek zijn. De gekleurde bolletjes bovenaan de pagina's verschillen wel.
 
 * [Opgave 1](opgave01/oplossing.md) - (waarschijnlijk) **opgelost**
+* [Opgave 2](opgave02/oplossing.md) - (misschien) **opgelost**
 * [Opgave 4](opgave04/oplossing.md) - **Opgelost**
 * [Opgave 5](opgave05) - Hulp nodig
 * [Opgave 7](opgave07/oplossing.md) - **Opgelost**
@@ -14,6 +15,7 @@ We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschille
 * [Opgave 15](opgave15/oplossing.md) - **Opgelost**
 * [Opgave 16](opgave16/oplossing.md) - **Opgelost**
 * [Opgave 17](opgave17/oplossing.md) - **Opgelost**
+* [Opgave 19](opgave19/oplossing.md) - **Opgelost**
 * [Opgave 33](opgave33/oplossing.md) - **Opgelost**
 * [Opgave 35](opgave35/oplossing.md) - **Opgelost**
 * [Opgave 36](opgave36/oplossing.md) - **Opgelost**
