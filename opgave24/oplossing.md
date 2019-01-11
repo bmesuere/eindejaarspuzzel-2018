@@ -30,7 +30,7 @@
 * Servië
 * Brazilië
 
-* Groep F
+## Groep F
 * Zuid-Korea
 * Duitsland
 * Zweden
