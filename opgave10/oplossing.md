@@ -184,5 +184,5 @@ ro.lines.map(&:to_i).map{|c| "%015b" % c}.map{|s| s.tr("01", " █")}.join("\n")
 
 Dit decodeert naar: **Bingo! Welk Japans bedrijf uit Kariya zoeken we?**
 
-**Antwoord:** ![Denso](https://en.wikipedia.org/wiki/Denso), de ontwikkelaars van de QR-code.
+**Antwoord:** [Denso](https://en.wikipedia.org/wiki/Denso), de ontwikkelaars van de QR-code.
 
