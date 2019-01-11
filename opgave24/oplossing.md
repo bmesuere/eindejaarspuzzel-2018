@@ -1,4 +1,5 @@
 * De landen per groep komen overeen met het echte WK
+* De Franse versie heeft dezelfde landen per groep, maar in een andere volgorde. Het aantal gescoorde doelpunten is veel hoger. Dat doet vermoeden dat de manier op tot een eindstand te komen iets taal-gerelateerd is.
 
 ## Groep A
 * Rusland (Moskow)
