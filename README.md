@@ -14,7 +14,7 @@ Voorlopige score: 1+1+2?+1+1+2+1+1+2+1+2+3+3+3+5+1 = 28(+2)
 * [Opgave 7](opgave07/oplossing.md) - **Opgelost**
 * [Opgave 8](opgave08/oplossing.md) - **Opgelost**
 * [Opgave 9](opgave09/oplossing.md) - Geen idee (3*1p, structuren)
-* [Opgave 10](opgave10/oplossing.md) - Geen idee (3p, 4 kwadranten)
+* [Opgave 10](opgave10/oplossing.md) - **Opgelost**
 * [Opgave 11](opgave11/oplossing.md) - Geen idee (2p, "kerk")
 * [Opgave 12a](opgave12/a/oplossing.md) - **Opgelost**
 * [Opgave 12b](opgave12/b/oplossing.md) - Geen idee (4p, gekleurde letters)
