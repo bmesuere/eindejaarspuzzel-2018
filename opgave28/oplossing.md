@@ -4,7 +4,7 @@ Poging met 6 tekens tussen.
 
 **A**agje bi**b**bert za**c**ht en na**d**ien hyp**e**ractie**f** door de **g**elige w**h**iskys d**i**e ze zwi**j**gend be**k**t.
 Het re**l**aas van **M**o, haar o**n**versto**o**rbare o**p**a, die de **q**uiz voo**r**leest e**s**caleer**t** tot geb**u**lder.
-Di**v**a Aagje **w**il rela**x**en tips**y** uitbla**z**en. oef!
+Di**v**a Aagje **w**il rela**x**en: tips**y** uitbla**z**en. Oef!
 
 | ...   |      |      |      |      |      |      |
 | ----- | ---- | ---- | ---- | ---- | ---- | ---- |
