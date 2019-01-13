@@ -1,0 +1,3 @@
+#!/bin/sh
+
+tr '#\-zyxwvutsrqponmlkjihgfedcba' 'tlhqioku#mryjwns\-vpxzabcdefg'
