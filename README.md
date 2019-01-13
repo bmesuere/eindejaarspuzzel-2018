@@ -34,7 +34,7 @@ Voorlopige score: 1+1+2?+1+1+3+2+1+1+2+1+2+3+3+1+3+5+1 = 32(+2)
 * [Opgave 25](opgave25/oplossing.md) - Geen idee (3p, gekleurde puntjes)
 * [Opgave 26](opgave26/oplossing.md) - Geen idee (3p, duo woordzoeker)
 * [Opgave 27](opgave27/oplossing.md) - **Opgelost**
-* [Opgave 28](opgave28/oplossing.md) - Hulp nodig (2p, Creativiteit)
+* [Opgave 28](opgave28/oplossing.md) - **Opgelost** (2p, Creativiteit) (Kan mischien beter voor extra bonuspunten)
 * [Opgave 29](opgave29/oplossing.md) - Geen idee (2p, letter klokken)
 * [Opgave 30](opgave30/oplossing.md) - Geen idee (2*2p, reeksen)
 * [Opgave 31](opgave31/oplossing.md) - Geen idee (2*1p, codes in reeksen)
