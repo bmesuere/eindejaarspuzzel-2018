@@ -5,7 +5,7 @@ OMUHPTLRX FPBLYUZQE ZTFNPQGCK DCXKNKVGL
 QZNHSCNMD
 
 
-vinaigre cryptanalyse
+vinaigre cryptanalyse blocksize 17
 
 /w/cryptopals  python2 eindejaarspuzzel.py
 0.6295371682229408 jjjjjjjjj rodteldef
@@ -33,3 +33,29 @@ dthmevrcynittieg
 .
 .
 fpbtvikdorbkydks
+
+
+
+
+blocksize 9
+python2 eindejaarspuzzel.py
+0.5188980109843411 uuuuuuuuuuuuuuuuu cbroecmaeoxwctnre
+0.492953967398613 rrrrrrrrrrrrrrrrr ewucrmerrzlyxaenk
+0.4149299445375185 xxxxxxxxxxxxxxxxx ekrgkoriazbplswoe
+0.24410616712743172 kkkkkkkkkkkkkkkkk qawimweuqcjelprol
+0.37550907282749857 xxxxxxxxxxxxxxxxx wzlbexasoznngpgej
+0.38864936339750517 jjjjjjjjjjjjjjjjj uteynuseaphqwxtnf
+0.4739266480796313 uuuuuuuuuuuuuuuuu gekooeywuemtznujb
+0.5060560414884046 ttttttttttttttttt iwannnnuepipedptz
+0.5463328502375856 nnnnnnnnnnnnnnnnn nsciqtregdptelrsk
+
+
+ceeqwugin
+bwkaztews
+.
+.
+.
+.
+.
+
+
