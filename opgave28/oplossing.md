@@ -34,3 +34,6 @@ Di**v**a Aagje **w**il rela**x**en tips**y** uitbla**z**en. oef!
 | **X** | E    | N    | T    | I    | P    | S    |
 | **Y** | U    | I    | T    | B    | L    | A    |
 | **Z** | E    | N    | O    | E    | F    |      |
+
+Ook nog mogelijk:
+- is afgemat uitgejubeld, in plaats van escaleert tot gebulder
