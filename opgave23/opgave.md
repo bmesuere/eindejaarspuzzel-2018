@@ -5,7 +5,7 @@ OMUHPTLRX FPBLYUZQE ZTFNPQGCK DCXKNKVGL
 QZNHSCNMD
 
 
-vinaigre cryptanalyse blocksize 17
+viginaire cryptanalyse blocksize 17
 
 /w/cryptopals  python2 eindejaarspuzzel.py
 0.6295371682229408 jjjjjjjjj rodteldef
@@ -49,7 +49,6 @@ python2 eindejaarspuzzel.py
 0.5060560414884046 ttttttttttttttttt iwannnnuepipedptz
 0.5463328502375856 nnnnnnnnnnnnnnnnn nsciqtregdptelrsk
 
-
 ceeqwugin
 bwkaztews
 .
@@ -58,4 +57,34 @@ bwkaztews
 .
 .
 
+ekeljfbzk
 
+
+
+
+next block
+(0, ('uuuuuuuuuuuuuuuuu', 'cbroecmaeoxwctnre', 0.5297151352250505))
+(1, ('eeeeeeeeeeeeeeeee', 'rjhpezreemylknrax', 0.49327011712857827))
+(2, ('xxxxxxxxxxxxxxxxx', 'ekrgkoriazbplswoe', 0.42451768274135565))
+(3, ('ccccccccccccccccc', 'isoaeowmiubwdhjgd', 0.24893805359040475))
+(4, ('bbbbbbbbbbbbbbbbb', 'adpfibewsdrrktkin', 0.3885791944308397))
+(5, ('ttttttttttttttttt', 'edoixecokzraghdxp', 0.37882121743478325))
+(6, ('uuuuuuuuuuuuuuuuu', 'gekooeywuemtznujb', 0.4639741125796993))
+(7, ('ttttttttttttttttt', 'iwannnnuepipedptz', 0.5091017991910382))
+(8, ('nnnnnnnnnnnnnnnnn', 'nsciqtregdptelrsk', 0.5491433383807963))
+
+
+creiaegin
+brksddews
+rhropokac
+.
+.
+.
+exednpbzk
+
+
+viginaire dictionary attack met alle woorden van len 9 in  out.txt, geen woorden uit dict in te vinden
+cat woordenlijst_l9.txt  | while read l; do  grep "$l" out_words_only ; done
+nopes
+
+TODO: cryptanalyze met lagere treshhold, geeft meer outputs, hier terug lang detection op doen.

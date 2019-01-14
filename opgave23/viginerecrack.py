@@ -1,8 +1,14 @@
 import numpy
+import string
 
 
-NL_HIST = {'a':7, 'b':1, 'c':1, 'd':6, 'e': 19, 'f':1, 'g': 3, 'h': 2, 'i': 6, 'j': 1, 'k': 2, 'l': 4, 'm': 2, 'n':
+NL_HIST = {'a':7, '2':1, 'c':1, 'd':6, 'e': 19, 'f':1, 'g': 3, 'h': 2, 'i': 6, 'j': 1, 'k': 2, 'l': 4, 'm': 2, 'n':
         10, 'o': 6, 'p': 1, 'q': 0, 'r': 6, 's': 4, 't': 7, 'u': 2, 'v': 3, 'w': 2, 'x': 0, 'y': 0, 'z': 1}
+
+NL_HIST = {'a': 7.486, 'b': 1.584, 'c': 1.242, 'd': 5.933, 'e': 18.91, 'f': .0805, 'g': 3.403,
+        'h': 2.380, 'i': 6.499, 'j': 1.46, 'k': 2.248, 'l': 3.568, 'm': 2.213, 'n': 10.032,
+        'o': 6.063, 'p': 1.57, 'q': .009, 'r': 6.411, 's': 3.73, 't': 6.79, 'u':1.99,
+        'v': 2.85, 'w': 1.52, 'x': .036, 'y': .035, 'z': .0139}
 
 def histogram(text):
     """create a histogram of the given text"""
@@ -89,7 +95,7 @@ def cbccrack(blocklen, decrypt, inputstring, lang_hist, confidence=0.7):
             print(i, guess)
 
 # no good on short texts
-#cbccrack(9, rot, """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""", lang_hist=NL_HIST, confidence=0.5)
+cbccrack(9, rot, """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""", lang_hist=NL_HIST, confidence=0.4)
 
 #TODO: dictinonary attack instead of cbc cryptanalyse
 
@@ -133,7 +139,7 @@ def wordlistcrack(wordlistfile, decrypt, inputstring, lang_hist, confidence=0.7)
     print("\n".join(x[0] + " " + " ".join(chunks(x[1],9)) + " " + str(x[2]) for x in sorted(output,
         key=getscore)))
 
-wordlistcrack('woordenlijst_l9.txt', rot,
-        """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""".lower(), lang_hist=NL_HIST, confidence=0.1)
+#wordlistcrack('woordenlijst_l9.txt', rot,
+#        """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""".lower(), lang_hist=NL_HIST, confidence=0.5)
 
 
