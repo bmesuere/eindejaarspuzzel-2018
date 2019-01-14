@@ -34,17 +34,20 @@ def scorelanguage(languagestring, language_hist=None):
     this works on indiviual letters, so you can give slices without worrying about ngrams
     """
     if not language_hist:
-        language_hist = ENG_HIST.copy()
+        language_hist = NL_HIST.copy()
     hist = histogram(languagestring)
 
     # calculate the correlation
     return dictcorrelation(language_hist, hist)
 
 def rot(a, b):
-    """rotate string a with letters of string b resp"""
+    """
+    rotate string a with letters of string b resp
+    stops after shortest string is processed
+    """
     c = ''
     for i in range(0,min(len(a),len(b))):
-        c = c + chr((ord(a[i]) - 2*ord('a') + ord(b[i])) % 26 + ord('a'))
+        c = c + chr(((ord(a[i]) - 2*ord('a') + ord(b[i])) % 26) + ord('a'))
     return c
 
 
@@ -71,15 +74,17 @@ def crack(inputstring, decrypt_cipher, language_hist=ENG_HIST, confidence=.5, pw
             bestscore = english
             bestkey = key
             bestenglish = decrypted
-            print bestscore, bestkey, bestenglish
         if english > confidence:
             yield "".join(key), decrypted, english
+    # if nothing was found, lets still return our best finding
+    if best <= confidence:
+        yield "".join(bestkey), bestenglish,bestscore
 
 
 # it's cbc so we can crack 1 char at a time
 def cbccrack(blocklen, decrypt, inputstring, lang_hist, confidence=0.7):
     for i in range(blocklen):
-        print 'next block'
+        print('next block')
         inp = inputstring[i::blocklen]
         for guess in crack(inp, decrypt, lang_hist, confidence,len(inputstring)//blocklen):
             print(i, guess)
