@@ -51,8 +51,7 @@ def rot(a, b):
     return c
 
 
-
-def crack(inputstring, decrypt_cipher, language_hist=ENG_HIST, confidence=.5, pw_length=1):
+def crack(inputstring, decrypt_cipher, language_hist=NL_HIST, confidence=.5, pw_length=1):
     """
     Crack the key and return it and the plaintext for cipher given a
     We start with one char pw's only
@@ -77,7 +76,7 @@ def crack(inputstring, decrypt_cipher, language_hist=ENG_HIST, confidence=.5, pw
         if english > confidence:
             yield "".join(key), decrypted, english
     # if nothing was found, lets still return our best finding
-    if best <= confidence:
+    if bestscore <= confidence:
         yield "".join(bestkey), bestenglish,bestscore
 
 
@@ -93,3 +92,48 @@ def cbccrack(blocklen, decrypt, inputstring, lang_hist, confidence=0.7):
 #cbccrack(9, rot, """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""", lang_hist=NL_HIST, confidence=0.5)
 
 #TODO: dictinonary attack instead of cbc cryptanalyse
+
+
+def dictcrack(inputstring, decrypt_cipher, wordlist, lang_hist=NL_HIST, confidence=.5):
+    bestscore = 0
+    bestkey = ''
+    bestenglish = ''
+    for key in wordlist:
+        try:
+            # do the xorhex for a long string of char, decode it to hex to score our language
+            decrypted = decrypt_cipher(inputstring, key * (len(inputstring)//len(key)))
+        except TypeError:
+            # result wasn't hex, so lets skip
+            continue
+        english = scorelanguage(decrypted, lang_hist)
+        if english > bestscore:
+            bestscore = english
+            bestkey = key
+            bestenglish = decrypted
+            print("".join(key), decrypted, english)
+        if english > confidence:
+            yield "".join(key), decrypted, english
+    if bestscore <= confidence:
+        yield "".join(bestkey), bestenglish,bestscore
+
+
+def getscore(tup):
+    return tup[2]
+
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+
+def wordlistcrack(wordlistfile, decrypt, inputstring, lang_hist, confidence=0.7):
+    output = []
+    words = [word.strip() for word  in open(wordlistfile).readlines()]
+    for guess in dictcrack(inputstring, rot, words, lang_hist, confidence):
+            output.append(guess)
+    print("\n".join(x[0] + " " + " ".join(chunks(x[1],9)) + " " + str(x[2]) for x in sorted(output,
+        key=getscore)))
+
+wordlistcrack('woordenlijst_l9.txt', rot,
+        """OTNMFRSVGNLTWIQQJLDJASUBWNVARPEKVAABQGTINKAAJOBXSGRQAMYTAAJPKAKMGRQBBIHXQGJMXXGRZAOIYIMQCWJAKFWEYVIINYAWNFCMOMUHPTLRXFPBLYUZQEZTFNPQGCKDCXKNKVGLQZNHSCNMD""".lower(), lang_hist=NL_HIST, confidence=0.1)
+
+
