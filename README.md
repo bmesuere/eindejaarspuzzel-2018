@@ -1,12 +1,14 @@
-# Eindejaarspuzzel
-Opgaven te vinden op https://www.mil.be/nl/artikel/klaar-voor-een-uitdagend-eindejaar, de franstalige versie is te vinden op https://www.mil.be/sites/mil.be/files/files_library/adiv_-_sgrs_puzzel_2018_-_version_fr.pdf
+# ADIV eindejaarspuzzel 2018
+Deze repository bevat alle oplossingen, gedeeltelijke oplossingen en scripts die door enkele leden van de vakgroep Toegepaste Wiskunde, Informatica en Statistiek aan de UGent gebruikt werden om de [opgaves](opgave_nl.pdf) op te lossen. Dit is de staat van onze oplossingen op het moment van de deadline. Hier staan dus ongetwijfeld nog fouten in.
 
-We leren hieruit dat de kleur en waarde van de dobbelstenen die op de verschillende pagina's staan identiek zijn. De gekleurde bolletjes bovenaan de pagina's verschillen wel.
+De correcte oplossingen met uitleg met uitwerkingen zijn in [dit document](uitwerkingen.pdf) te vinden.
+
+---
 
 Voorlopige score: 1+1+2?+1+1+3+2+1+1+2+1+2+3+3+1+2+3+5+1 = 34(+2)
 
 * [Opgave 1](opgave01/oplossing.md) - (waarschijnlijk) **opgelost**
-* [Opgave 2](opgave02/oplossing.md) - (misschien) **opgelost**
+* [Opgave 2](opgave02/oplossing.md) - (misschien) **opgelost** -> bleek fout te zijn
 * [Opgave 3](opgave03/oplossing.md) - Geen idee (3p)
 * [Opgave 4](opgave04/oplossing.md) - **Opgelost**
 * [Opgave 5](opgave05/oplossing.md) - Geen idee (2p, VIX)
@@ -19,7 +21,7 @@ Voorlopige score: 1+1+2?+1+1+3+2+1+1+2+1+2+3+3+1+2+3+5+1 = 34(+2)
 * [Opgave 12a](opgave12/a/oplossing.md) - **Opgelost**
 * [Opgave 12b](opgave12/b/oplossing.md) - Geen idee (4p, gekleurde letters)
 * [Opgave 12c](opgave12/c/oplossing.md) - Geen idee (3p, lam gods)
-* [Opgave 13](opgave13/oplossing.md) - **Opgelost**
+* [Opgave 13](opgave13/oplossing.md) - **Opgelost** -> bleek fout te zijn
 * [Opgave 14](opgave14/oplossing.md) - **Opgelost**
 * [Opgave 15](opgave15/oplossing.md) - **Opgelost**
 * [Opgave 16](opgave16/oplossing.md) - **Opgelost**
